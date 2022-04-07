@@ -51,7 +51,12 @@ function App() {
   useEffect(() => {
 
     if( Object.keys(coins).length > 0 ){
+      const cotizarCripto = async()=>{
+        const {coins,criptoCoin} = coins;
+        const url = `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=${criptoCoin}&tsyms=${coins}`;
+      }
 
+      cotizarCripto();
     }
 
   }, [coins]);
