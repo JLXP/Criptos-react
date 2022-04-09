@@ -15,7 +15,6 @@ const Contenedor = styled.div`
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
   }
-
 `
 //Las imagenes siempre tinen un display-inline
 const Imagen = styled.img`
@@ -42,7 +41,6 @@ const Heading = styled.h1`
     display:block;
     margin: 10px auto 0 auto;
   }
-
 `
 
 function App() {
